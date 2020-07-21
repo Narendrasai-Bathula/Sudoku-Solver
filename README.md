@@ -55,4 +55,13 @@ YOU MUST WAIT TO MODIFY OR WRITE YOUR OWN TEST OF THE UNIT AS PART OF COMPLETING
 
 To submit your code, run `udacity submit` from a terminal in the top level directory of this project. You will be asked for a username and password the first time the script is run. If you log in with Google or Facebook, visit [this link] (https://project-assistant.udacity.com/auth_tokens/jwt_login) for alternative access instructions.
 
-The Udacity-PA CLI tool is automatically installed with the conda AIND environment provided in the classroom, but you can also install it manually by running `pip install udacity-pa`. You can submit your score code by running `udacity submit`. The project assistant server has a collection of
+The Udacity-PA CLI tool is automatically installed with the conda AIND environment provided in the classroom, but you can also install it manually by running `pip install udacity-pa`. You can submit your score code by running `udacity submit`. The project wizard server has a collection of test units that will run on the code and provide feedback on any positive or negative outcomes. All test cases must be passed in the project wizard to approve the project.
+
+Once the project has passed all the test cases in Project Assistant, send the zip file created by the `udacity submit` command in the classroom to automatically receive credit for the project. NOTE: You will not receive personalized feedback for this project on submissions that pass all test cases, however all other projects in the term provide personalized feedback on approved and failed submissions.
+
+
+## Visualizations
+
+** Note: ** The `pygame` library is required to view your solution; however, the `pygame` module can be problematic to install and configure. It should be installed by default with the AIND conda environment, but is not reliable on all operating systems or versions. Consult the pygame documentation [here] (http://www.pygame.org/download.shtml) or discuss among your colleagues in the slow group if you need help.
+
+Running `python solution.py` will automatically try to display your solution, but you need to use the` assign_value` function (defined in `utils.py`) to track the progress of the puzzle solution for rebuilding during display.
